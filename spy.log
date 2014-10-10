@@ -1,0 +1,35 @@
+spy.sh Report
+started at Sat Apr 5 17:55:38 EDT 2014
+stopped at Sat Apr 5 22:20:40 EDT 2014
+arguments: Charles C. Palmer Ira Ray Jenkins
+ 
+ccpalmer logged in 5 times for a total of 46 minutes.
+ 
+Here is the breakdown:
+1) Logged on at Sat Apr  5 18:04:38 EDT 2014; logged off at Sat Apr  5 18:10:39 EDT 2014 
+2) Logged on at Sat Apr  5 19:04:39 EDT 2014; logged off at Sat Apr  5 19:07:39 EDT 2014 
+3) Logged on at Sat Apr  5 19:50:39 EDT 2014; logged off at Sat Apr  5 20:04:39 EDT 2014 
+4) Logged on at Sat Apr  5 20:46:39 EDT 2014; logged off at Sat Apr  5 21:01:40 EDT 2014 
+5) Logged on at Sat Apr  5 21:51:40 EDT 2014; logged off at Sat Apr  5 21:59:40 EDT 2014 
+ 
+jenkins logged in 14 times for a total of 129 minutes.
+ 
+Here is the breakdown:
+1) Logged on at Sat Apr  5 17:55:38 EDT 2014; logged off at Sat Apr  5 18:02:38 EDT 2014 
+2) Logged on at Sat Apr  5 18:03:38 EDT 2014; logged off at Sat Apr  5 18:07:39 EDT 2014 
+3) Logged on at Sat Apr  5 18:11:39 EDT 2014; logged off at Sat Apr  5 18:12:39 EDT 2014 
+4) Logged on at Sat Apr  5 18:20:39 EDT 2014; logged off at Sat Apr  5 18:22:39 EDT 2014 
+5) Logged on at Sat Apr  5 18:30:39 EDT 2014; logged off at Sat Apr  5 18:34:39 EDT 2014 
+6) Logged on at Sat Apr  5 18:52:39 EDT 2014; logged off at Sat Apr  5 19:09:39 EDT 2014 
+7) Logged on at Sat Apr  5 19:44:39 EDT 2014; logged off at Sat Apr  5 20:54:40 EDT 2014 
+8) Logged on at Sat Apr  5 21:14:40 EDT 2014; logged off at Sat Apr  5 21:15:40 EDT 2014 
+9) Logged on at Sat Apr  5 21:23:40 EDT 2014; logged off at Sat Apr  5 21:25:40 EDT 2014 
+10) Logged on at Sat Apr  5 21:28:40 EDT 2014; logged off at Sat Apr  5 21:32:40 EDT 2014 
+11) Logged on at Sat Apr  5 21:41:40 EDT 2014; logged off at Sat Apr  5 21:44:40 EDT 2014 
+12) Logged on at Sat Apr  5 21:48:40 EDT 2014; logged off at Sat Apr  5 21:49:40 EDT 2014 
+13) Logged on at Sat Apr  5 21:53:40 EDT 2014; logged off at Sat Apr  5 21:54:40 EDT 2014 
+14) Logged on at Sat Apr  5 21:57:40 EDT 2014; logged off at Sat Apr  5 22:09:40 EDT 2014 
+ 
+jenkins logged on the most time of 129 minutes
+jenkins had the shortest session of 1 minutes, and is therefore the sneakiest
+jenkins had the longest session of 70 minutes

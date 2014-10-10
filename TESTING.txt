@@ -1,0 +1,87 @@
+Assignment 2 TEST.txt file
+Created by Ben Ribovich
+
+There were four programs tested: birthday_match.sh, count_files.sh, url_search.sh, and spy.sh
+
+1. birthday_match.sh
+./birthday_match.sh 
+./birthday_match.sh 12/30/2012
+./birthday_match.sh 12/30/2012 12/11/2012 12/13/2012
+all returned: "Incorrect number of arguments, please enter two dates."
+
+./birthday_match.sh 12/30/2012, 12/13/2012
+./birthday_match.sh fjalskdjf alksdjflj
+./birthday_match.sh 12/35/2012 12/36/2012 
+all returned "Your first date is invalid" 
+
+./birthday_match.s 12/11/2013 12/36/2012
+returned "Your second date is invalid"
+
+2. count_files
+The program was tested on a directory containing 
+asdf.5             count_files.sh  hello..     spy.sh         websites.txt
+asdf_ye.g          hello           README.txt  TESTING.txt
+birthday_match.sh  hello.          spy.log     url_search.sh
+
+and returned
+1 5
+1 g
+1 log
+4 sh
+3 txt
+3 noext
+
+This shows the effects of having no extension, just "." and ".." at the end, and having underscores in the file name.
+The program was also tested on a directory containing other directories in order to ensure that these would not be considered and would be searched.
+Finally, the program was tested on a directory containing a file with 2 dots, for instance "a.b.c" in order to ensure only the last extension was counted
+3. url_search.sh
+./url_search.sh 
+./url_search word
+./url_search websites.txt
+all returned: "Not enough inputs."
+
+./url_search.sh alsd asdf
+./url_serach.sh websites.txt word
+where websites.txt is blank
+and the directory did not contain "alsd"
+returned: "File does not exist or has no content."
+
+./url_search.sh websites.txt the program
+
+where: websites.txt is:
+
+
+http://www.cs.dartmouth.edu/~jenkins/lab2/potato.html
+http://www.cs.dartmouth.edu/~jenkins/lab2/kludge.html
+http://www.cs.datmouth.edu/~jenkins/lab2/programming.html
+
+(i.e. the third url is mispelled)
+
+returned:
+http://www.cs.datmouth.edu/~jenkins/lab2/programming.html is not a valid url.
+the
+http://www.cs.dartmouth.edu/~jenkins/lab2/potato.html 652
+http://www.cs.dartmouth.edu/~jenkins/lab2/kludge.html 228
+
+
+program
+http://www.cs.dartmouth.edu/~jenkins/lab2/potato.html 0
+http://www.cs.dartmouth.edu/~jenkins/lab2/kludge.html 9
+
+
+4. spy.sh
+
+./spy.sh
+returned: "Not enough inputs."
+
+
+./spy.sh "Charles C. Paler"
+(i.e. no valid usernames)
+returned: "No valid users."
+
+./spy.sh "Charles C. Palmer" "Ira Ray Jenkins"
+returned: attached "spy.log" file
+
+If a user did not log on, their section of the log states "[user] did not log on at all.
+
+ 
